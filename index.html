@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
   <title>Favorite Things</title>
 </head>
+
 <body>
   <div class="container">
     <h1>Favorite Things</h1>
     <h2>Please fill out this form</h2>
     <br>
     <p>Out of these options which is your favorite food?</p>
-    <br>
     <form id="survey">
       <select id="food">
         <option value="burrito">Burrito</option>
         <option value="taco">taco</option>
       </select>
+      <br>
       <br>
       <p>Out of these options which tv show is your favorite?</p>
       <select id="show">
@@ -30,23 +32,40 @@
       </select>
       <br>
       <br>
-      <p>Out of these options which brand is your favorite?</p>
-      <select id="brand">
-        <option value="apple">Survivor</option>
-        <option value="android">chopped</option>
+      <p>Out of these options which phone brand is your favorite?</p>
+      <select id="phoneBrand">
+        <option value="apple">Apple</option>
+        <option value="android">Android</option>
       </select>
       <br>
       <br>
-    <div class="button">
-      <button type="submit" class="btn">Submit!</button>
-    </div>
+      <div class="button">
+        <button type="submit" class="btn">Submit!</button>
+      </div>
     </form>
-    <div class="results">
-      <div id=""
-
+    <div id="results">
+      <h3>Here are your results!!</h3>
+      <ul>
+        <li><span class="food"></span></li>
+        <li><span class="show"></span></li>
+        <li><span class="phoneBrand"></span></li>
+      </ul>
+      <br>
+      <ul id="displayArray">
+          <script type="text/javascript">
+           let array = [0] 
+           var array = [1] 
+           var array = [2]
+           array[3] 
+           array[4] 
+           array[5] 
+          </script>
+      </ul>
     </div>
   </div>
-  
-  
+  </div>
+
+
 </body>
+
 </html>
